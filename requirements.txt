@@ -1,0 +1,16 @@
+# Core (required)
+numpy>=1.24
+scipy>=1.10
+soundfile>=0.12
+PyYAML>=6.0
+yt-dlp>=2024.1.1
+
+# Optional: transcription (word-level timestamps for punchline alignment)
+# faster-whisper>=1.0
+
+# Optional: ML laughter detection backends (heuristic backend needs none of these)
+# torch>=2.1
+# torchaudio>=2.1
+
+# Dev
+pytest>=7.4

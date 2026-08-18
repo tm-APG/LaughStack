@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "laughstack"
+version = "0.1.0"
+description = "Audience-response analytics for live comedy: laughter detection, per-joke metrics, and cross-set A/B comparison."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "Proprietary" }
+dependencies = [
+    "numpy>=1.24",
+    "scipy>=1.10",
+    "soundfile>=0.12",
+    "PyYAML>=6.0",
+    "yt-dlp>=2024.1.1",
+]
+
+[project.optional-dependencies]
+asr = ["faster-whisper>=1.0"]
+ml = ["torch>=2.1", "torchaudio>=2.1"]
+dev = ["pytest>=7.4"]
+
+[project.scripts]
+laughstack = "laughstack.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

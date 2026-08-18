@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.eggs/
+.pytest_cache/
+.venv/
+venv/
+
+# Audio / media — never commit recordings (confidentiality terms, spec §10)
+*.wav
+*.mp3
+*.m4a
+*.flac
+*.mp4
+*.webm
+*.mkv
+data/
+
+# Analysis output
+reports/
+*.session.json
+*.info.json
+
+# ML model caches
+*.pt
+*.onnx
+.models/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
