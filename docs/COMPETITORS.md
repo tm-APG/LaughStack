@@ -202,3 +202,51 @@ Candidate differentiators, hardest-to-copy first:
 - B2B/venue & services: Datavault AI × Rodney's https://www.globenewswire.com/news-release/2025/11/06/3183022/0/en/Datavault-AI-Partners-with-Rodney-s-Comedy-Club-to-Bring-Digital-Innovation-to-the-Live-Entertainment-Scene-with-Live-Joke-Copyrighting-and-Industry-First-Laugh-Index.html , https://ir.datavaultsite.com/news-events/press-releases/detail/377/datavault-ai-partners-with-rodneys-comedy-club-to-bring · Henri Rapp https://henrirapp.com/comedy-recording/ · Church of Satire taping package https://www.churchofsatirecomedyclub.com/general-8-1 · DIY norms https://www.comedymemphis.com/post/how-to-create-stand-up-comedy-special , https://comedyhouston.com/how-to-film-stand-up-comedy/
 - Research context: TIC-TALK https://aclanthology.org/2026.chum-1.2/ · ManzaiSet https://arxiv.org/pdf/2510.18014 · laughter-analysis patent https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/12489946 · "Can AI read the room?" https://www.tandfonline.com/doi/full/10.1080/2040610X.2025.2544414
 - Transcription: https://www.rev.com/blog/how-to-get-transcripts-of-your-stand-up-comedy-routines-to-grow-your-following
+
+---
+
+## 9. Who's behind the three core competitors (researched 2026-08-20)
+
+### StandApp Comedy — creator unidentifiable; every signal says solo AI-assisted build
+No founder, company entity, or individual name surfaces anywhere in
+search-indexed content. Hosted on **Vercel** (default deploy target for
+Next.js/AI-assisted indie builds). The domain is **recycled** — it appears in
+expired-domain drop lists for 2014, 2017, and April 2022, so the current
+product re-registered it after April 2022, likely launching 2024–2026. The
+"90+ languages" transcription claim almost certainly means a thin wrapper
+over off-the-shelf ASR (Whisper or a commercial STT API). No Product Hunt or
+Indie Hackers launch, no Reddit threads, no social accounts, no app-store
+listing, no press; only trace of promotion is comment threads on a comedy
+Substack. **Beware name collisions**: a deadpooled 2018 stand-up streaming
+app "StandApp" (founder Rudi Azank, per Tracxn), a Brazilian comedy-ticketing
+app, and an old iOS joke-sharing app all share the name — none are this
+product.
+
+### Comedy Metric — creator unidentifiable; slightly more ambitious, equally anonymous
+DNS resolves to a Google Cloud load balancer (typical Firebase/Flutter-web
+build); .app TLD bounds launch to post-2018, indexing depth suggests
+2024–2026. "Made by Comics, For Comics" implies comedian founders, but no
+comic's name is attached anywhere search engines can see — notable for a
+product whose whole pitch is comedian credibility. Booking/show management
+scope suggests a real roadmap, but: no founders, no entity, no launch posts,
+no press, no store listing, no indexed pricing.
+
+### Comedy Evaluator Pro — Steve Roye (confirmed), ~23-year-old info-product
+Former headlining comedian turned comedy educator; author of the "Killer
+Stand-up Comedy System" (sold 20+ countries since ~2001), operator of an
+interlinked site ecosystem (killerstandup.com, realfirststeps.com,
+topcomedysecrets.com, sayitfunny.com). Invented CEP in **2003** ("patent
+pending" per his own bio — no granted patent verified; treat as marketing).
+Featured in the documentary "I Am Comic" (Slamdance 2010). Business model is
+info-marketing funnel, not SaaS: trials → time-boxed one-time payments →
+course upsell (CEP free for a year with course membership). Hostinger shared
+hosting, WordPress-era SEO content. Heavily self-referential ecosystem
+including a self-published "scam?" rebuttal page on his own domain. Solo,
+maintained-but-dated; 2025–2026 development activity unverifiable.
+
+### Implication
+None of the three is a funded company, a team, or a capture-quality threat.
+The two modern ones are anonymous indie builds with no visible traction; the
+credible one is a 2003-era manual tool attached to a comedy course. The
+serious threat vector remains a pivot by a funded adjacent player (Reap,
+Datavault) — not these three.
