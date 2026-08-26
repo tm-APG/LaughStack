@@ -1,0 +1,30 @@
+{
+  "sessions": [
+    {
+      "id": "demo-tuesday-mic",
+      "performer": "Jane Doe",
+      "venue": "The Basement (Tuesday mic)",
+      "date": "2026-08-04",
+      "status": "complete",
+      "sourceType": "kit",
+      "metrics": {
+        "lpm": 1.6264570344266736,
+        "parScore": 11.11412306858227,
+        "nEvents": 5
+      }
+    },
+    {
+      "id": "demo-friday-late",
+      "performer": "Jane Doe",
+      "venue": "The Basement (Friday late)",
+      "date": "2026-08-14",
+      "status": "complete",
+      "sourceType": "kit",
+      "metrics": {
+        "lpm": 1.6194331983805668,
+        "parScore": 10.931174089068826,
+        "nEvents": 5
+      }
+    }
+  ]
+}

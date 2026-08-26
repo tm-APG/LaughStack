@@ -1,0 +1,306 @@
+{
+  "session_id": "demo-tuesday-mic",
+  "performer": "Jane Doe",
+  "venue": "The Basement (Tuesday mic)",
+  "date": "2026-08-04",
+  "audio": {
+    "path": "demo-tuesday-mic.wav",
+    "source_type": "kit",
+    "sample_rate": 16000,
+    "channels": 1,
+    "duration_s": 186.425,
+    "clipping_ratio": 0.0,
+    "dropout_regions": [],
+    "cal_tone_offset_s": 1.975,
+    "cal_tone_level_dbfs": -15.105503795711686,
+    "noise_floor_dbfs": -46.111789029142074,
+    "rt60_s": null,
+    "qc_passed": true,
+    "qc_notes": [],
+    "url": null,
+    "video_id": null,
+    "title": null,
+    "channel": null,
+    "upload_date": null
+  },
+  "events": [
+    {
+      "start_s": 15.9,
+      "end_s": 18.65,
+      "kind": "laugh",
+      "confidence": 0.9448745231055306,
+      "peak_dbfs": -15.704661887767505,
+      "energy": 0.0018980834634276108,
+      "decay_s": 0.1,
+      "parent_index": null,
+      "excess_energy": 0.0018980834634276108,
+      "rel_peak": -2.951522499184926,
+      "rel_energy": -1.0489154408255235
+    },
+    {
+      "start_s": 44.15,
+      "end_s": 47.65,
+      "kind": "laugh",
+      "confidence": 0.805395494354172,
+      "peak_dbfs": -12.377372149043588,
+      "energy": 0.0031427675105514937,
+      "decay_s": 0.1,
+      "parent_index": null,
+      "excess_energy": 0.0031427675105514937,
+      "rel_peak": 0.0,
+      "rel_energy": 0.0
+    },
+    {
+      "start_s": 100.65,
+      "end_s": 104.4,
+      "kind": "laugh",
+      "confidence": 0.7723538516744147,
+      "peak_dbfs": -11.61700993479981,
+      "energy": 0.0043464556680410165,
+      "decay_s": 0.46,
+      "parent_index": null,
+      "excess_energy": 0.0043464556680410165,
+      "rel_peak": 0.6744907594765952,
+      "rel_energy": 0.6744907594765952
+    },
+    {
+      "start_s": 122.4,
+      "end_s": 125.4,
+      "kind": "laugh",
+      "confidence": 0.7042637273863931,
+      "peak_dbfs": -12.540915344416623,
+      "energy": 0.0025308385321986863,
+      "decay_s": 0.08,
+      "parent_index": null,
+      "excess_energy": 0.0025308385321986863,
+      "rel_peak": -0.1450734557662047,
+      "rel_energy": -0.45045470979618896
+    },
+    {
+      "start_s": 154.4,
+      "end_s": 161.9,
+      "kind": "mixed",
+      "confidence": 0.46841113361173325,
+      "peak_dbfs": -9.119245013680603,
+      "energy": 0.029287434616999234,
+      "decay_s": 1.8,
+      "parent_index": null,
+      "excess_energy": 0.029287434616999234,
+      "rel_peak": 2.8901707697138743,
+      "rel_energy": 4.642924006278289
+    }
+  ],
+  "transcript": [
+    {
+      "start_s": 6.5,
+      "end_s": 12.5,
+      "text": "so I finally met my landlord in person after three years",
+      "words": []
+    },
+    {
+      "start_s": 12.5,
+      "end_s": 15.6,
+      "text": "turns out he's been living in my walls the whole time",
+      "words": []
+    },
+    {
+      "start_s": 35.05,
+      "end_s": 41.05,
+      "text": "my therapist told me to write letters to people who hurt me and burn them",
+      "words": []
+    },
+    {
+      "start_s": 41.05,
+      "end_s": 44.15,
+      "text": "so I did that, but now I don't know what to do with all these letters",
+      "words": []
+    },
+    {
+      "start_s": 67.675,
+      "end_s": 73.675,
+      "text": "I took my grandmother to one of those escape rooms",
+      "words": []
+    },
+    {
+      "start_s": 73.675,
+      "end_s": 76.77499999999999,
+      "text": "she solved it immediately, she escaped Poland in the forties",
+      "words": []
+    },
+    {
+      "start_s": 91.675,
+      "end_s": 97.675,
+      "text": "I tried one of those meal kit subscriptions",
+      "words": []
+    },
+    {
+      "start_s": 97.675,
+      "end_s": 100.77499999999999,
+      "text": "it's just groceries with homework",
+      "words": []
+    },
+    {
+      "start_s": 113.425,
+      "end_s": 119.425,
+      "text": "and honestly the worst part",
+      "words": []
+    },
+    {
+      "start_s": 119.425,
+      "end_s": 122.52499999999999,
+      "text": "the homework is graded by your own disappointment",
+      "words": []
+    },
+    {
+      "start_s": 145.425,
+      "end_s": 151.425,
+      "text": "anyway that's my time, you've been wonderful",
+      "words": []
+    },
+    {
+      "start_s": 151.425,
+      "end_s": 154.525,
+      "text": "tip your bartenders, I'm serious, I dated one, they remember everything",
+      "words": []
+    }
+  ],
+  "jokes": [
+    {
+      "bit_id": "96cfaff99d2f",
+      "setup_text": "so I finally met my landlord in person after three years",
+      "punchline_text": "turns out he's been living in my walls the whole time",
+      "punchline_end_s": 15.6,
+      "events": [
+        {
+          "start_s": 15.9,
+          "end_s": 18.65,
+          "kind": "laugh",
+          "confidence": 0.9448745231055306,
+          "peak_dbfs": -15.704661887767505,
+          "energy": 0.0018980834634276108,
+          "decay_s": 0.1,
+          "parent_index": null,
+          "excess_energy": 0.0018980834634276108,
+          "rel_peak": -2.951522499184926,
+          "rel_energy": -1.0489154408255235
+        }
+      ],
+      "latency_s": 0.3000000000000007,
+      "position_in_set": 0.08457576579018704
+    },
+    {
+      "bit_id": "102f112b1bdf",
+      "setup_text": "my therapist told me to write letters to people who hurt me and burn them",
+      "punchline_text": "so I did that, but now I don't know what to do with all these letters",
+      "punchline_end_s": 44.15,
+      "events": [
+        {
+          "start_s": 44.15,
+          "end_s": 47.65,
+          "kind": "laugh",
+          "confidence": 0.805395494354172,
+          "peak_dbfs": -12.377372149043588,
+          "energy": 0.0031427675105514937,
+          "decay_s": 0.1,
+          "parent_index": null,
+          "excess_energy": 0.0031427675105514937,
+          "rel_peak": 0.0,
+          "rel_energy": 0.0
+        }
+      ],
+      "latency_s": 0.0,
+      "position_in_set": 0.23936026023312548
+    },
+    {
+      "bit_id": "bf1d44a0e4b4",
+      "setup_text": "I took my grandmother to one of those escape rooms",
+      "punchline_text": "she solved it immediately, she escaped Poland in the forties",
+      "punchline_end_s": 76.77499999999999,
+      "events": [],
+      "latency_s": null,
+      "position_in_set": 0.4162374627270262
+    },
+    {
+      "bit_id": "3eb0e73ee0d4",
+      "setup_text": "I tried one of those meal kit subscriptions",
+      "punchline_text": "it's just groceries with homework",
+      "punchline_end_s": 100.77499999999999,
+      "events": [
+        {
+          "start_s": 100.65,
+          "end_s": 104.4,
+          "kind": "laugh",
+          "confidence": 0.7723538516744147,
+          "peak_dbfs": -11.61700993479981,
+          "energy": 0.0043464556680410165,
+          "decay_s": 0.46,
+          "parent_index": null,
+          "excess_energy": 0.0043464556680410165,
+          "rel_peak": 0.6744907594765952,
+          "rel_energy": 0.6744907594765952
+        }
+      ],
+      "latency_s": 0.0,
+      "position_in_set": 0.5463540254811601
+    },
+    {
+      "bit_id": "2c7f26f33bae",
+      "setup_text": "and honestly the worst part",
+      "punchline_text": "the homework is graded by your own disappointment",
+      "punchline_end_s": 122.52499999999999,
+      "events": [
+        {
+          "start_s": 122.4,
+          "end_s": 125.4,
+          "kind": "laugh",
+          "confidence": 0.7042637273863931,
+          "peak_dbfs": -12.540915344416623,
+          "energy": 0.0025308385321986863,
+          "decay_s": 0.08,
+          "parent_index": null,
+          "excess_energy": 0.0025308385321986863,
+          "rel_peak": -0.1450734557662047,
+          "rel_energy": -0.45045470979618896
+        }
+      ],
+      "latency_s": 0.0,
+      "position_in_set": 0.6642721604770939
+    },
+    {
+      "bit_id": "47e7ebaae63d",
+      "setup_text": "anyway that's my time, you've been wonderful",
+      "punchline_text": "tip your bartenders, I'm serious, I dated one, they remember everything",
+      "punchline_end_s": 154.525,
+      "events": [
+        {
+          "start_s": 154.4,
+          "end_s": 161.9,
+          "kind": "mixed",
+          "confidence": 0.46841113361173325,
+          "peak_dbfs": -9.119245013680603,
+          "energy": 0.029287434616999234,
+          "decay_s": 1.8,
+          "parent_index": null,
+          "excess_energy": 0.029287434616999234,
+          "rel_peak": 2.8901707697138743,
+          "rel_energy": 4.642924006278289
+        }
+      ],
+      "latency_s": 0.0,
+      "position_in_set": 0.8377609108159393
+    }
+  ],
+  "metrics": {
+    "duration_s": 184.45000000000002,
+    "n_events": 5,
+    "total_laugh_s": 20.5,
+    "laughs_per_minute": 1.6264570344266736,
+    "laugh_s_per_minute": 6.668473841149362,
+    "par_score": 11.11412306858227,
+    "median_peak_dbfs": -12.377372149043588,
+    "median_event_duration_s": 3.5,
+    "longest_silence_s": 53.00000000000001,
+    "applause_breaks": 1
+  },
+  "notes": {}
+}

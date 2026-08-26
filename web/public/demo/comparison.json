@@ -1,0 +1,55 @@
+{
+  "a": "demo-tuesday-mic",
+  "b": "demo-friday-late",
+  "matched": 6,
+  "rows": [
+    {
+      "joke": "so I finally met my landlord in person after three years turns out he's been living in my walls the whole time",
+      "deltaTotalLaughS": 0.75,
+      "deltaEnergyRel": 3.444932572942358,
+      "deltaLatencyS": 0.0,
+      "positionConfound": 0.0003652394743975662,
+      "verdict": "demo-friday-late delivery stronger (\u0394 energy z = +3.44)"
+    },
+    {
+      "joke": "anyway that's my time, you've been wonderful tip your bartenders, I'm serious, I dated one, they remember everything",
+      "deltaTotalLaughS": -0.5,
+      "deltaEnergyRel": 0.5360143947937583,
+      "deltaLatencyS": 0.32500000000001705,
+      "positionConfound": 0.0007006276455990834,
+      "verdict": "demo-friday-late delivery stronger (\u0394 energy z = +0.54)"
+    },
+    {
+      "joke": "and honestly the worst part the homework is graded by your own disappointment",
+      "deltaTotalLaughS": -0.5,
+      "deltaEnergyRel": 0.45045470979618896,
+      "deltaLatencyS": 0.32500000000001705,
+      "positionConfound": 0.001449836823850692,
+      "verdict": "no meaningful difference"
+    },
+    {
+      "joke": "my therapist told me to write letters to people who hurt me and burn them so I did that, but now I don't know what to do",
+      "deltaTotalLaughS": 0.0,
+      "deltaEnergyRel": -0.6744907594765952,
+      "deltaLatencyS": 0.0,
+      "positionConfound": 0.0020702390921106817,
+      "verdict": "demo-tuesday-mic delivery stronger (\u0394 energy z = -0.67)"
+    },
+    {
+      "joke": "I tried one of those meal kit subscriptions it's just groceries with homework",
+      "deltaTotalLaughS": 0.0,
+      "deltaEnergyRel": -1.0507816166932737,
+      "deltaLatencyS": 0.0,
+      "positionConfound": 0.0014192538710665614,
+      "verdict": "demo-tuesday-mic delivery stronger (\u0394 energy z = -1.05)"
+    },
+    {
+      "joke": "I took my grandmother to one of those escape rooms she solved it immediately, she escaped Poland in the forties",
+      "deltaTotalLaughS": 0.0,
+      "deltaEnergyRel": null,
+      "deltaLatencyS": null,
+      "positionConfound": 0.001981160754755129,
+      "verdict": "insufficient data"
+    }
+  ]
+}

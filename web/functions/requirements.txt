@@ -1,0 +1,7 @@
+firebase-functions>=0.4.0
+firebase-admin>=6.5.0
+numpy>=1.24
+scipy>=1.10
+soundfile>=0.12
+PyYAML>=6.0
+imageio-ffmpeg>=0.4.9

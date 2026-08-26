@@ -23,18 +23,27 @@ def test_align_attaches_laugh_to_preceding_segment():
     ]
     events = [ev(8.3, 11.0)]
     jokes = align(events, transcript, set_duration_s=60.0)
-    assert len(jokes) == 1
-    assert jokes[0].punchline_text == "and he said sir this is a Wendy's"
-    assert jokes[0].latency_s == pytest.approx(0.3)
-    assert "doctor" in jokes[0].setup_text
+    scored = [j for j in jokes if j.events]
+    assert len(scored) == 1
+    assert scored[0].punchline_text == "and he said sir this is a Wendy's"
+    assert scored[0].latency_s == pytest.approx(0.3)
+    assert "doctor" in scored[0].setup_text
+    # the trailing dog segment drew nothing -> kept as a silent instance
+    silent = [j for j in jokes if not j.events]
+    assert len(silent) == 1
+    assert "dog" in silent[0].punchline_text
 
 
 def test_align_unaligned_event_kept():
     events = [ev(30.0, 32.0)]
     jokes = align(events, [seg(0, 3, "hello everybody")], set_duration_s=60.0)
-    assert len(jokes) == 1
-    assert jokes[0].bit_id.startswith("unaligned")
-    assert jokes[0].punchline_text == ""
+    unaligned = [j for j in jokes if j.events]
+    assert len(unaligned) == 1
+    assert unaligned[0].bit_id.startswith("unaligned")
+    assert unaligned[0].punchline_text == ""
+    # the greeting drew nothing and is kept as a silent instance
+    assert any(not j.events and j.punchline_text == "hello everybody"
+               for j in jokes)
 
 
 def test_mark_stacked_links_close_events():
@@ -85,3 +94,25 @@ def test_ab_flags_position_confound():
     r = ab_compare(matches[0], "s1", "s2")
     assert r.position_confound == pytest.approx(0.8)
     assert "CAUTION" in r.verdict
+
+
+def test_silent_punchline_emitted():
+    """A punchline followed by a pause and no laugh stays in the tables."""
+    transcript = [
+        seg(0, 8, "so my grandmother wanted to try an escape room"),
+        seg(8, 12, "she solved it immediately, she escaped Poland in the forties"),
+        # 6-second pause: the comic waited, nothing came
+        seg(18, 24, "anyway I tried a meal kit subscription"),
+        seg(24, 27, "it's just groceries with homework"),
+    ]
+    events = [ev(27.3, 30.0)]
+    jokes = align(events, transcript, set_duration_s=60.0)
+    assert len(jokes) == 2
+    silent = jokes[0]
+    assert silent.punchline_text.startswith("she solved it")
+    assert silent.events == []
+    scored = jokes[1]
+    assert scored.punchline_text == "it's just groceries with homework"
+    # the dead bit's text must not leak into the next joke's setup
+    assert "Poland" not in scored.setup_text
+    assert "meal kit" in scored.setup_text
